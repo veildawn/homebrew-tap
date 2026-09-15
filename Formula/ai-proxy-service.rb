@@ -12,23 +12,23 @@ class AiProxyService < Formula
   # release — bump it by cutting a release, never by hand.
   on_macos do
     on_arm do
-      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.17.97/ai-proxy-service_0.17.97_darwin_arm64.tar.gz"
-      sha256 "8559e34b6545fa4a310041a214bfe61ce0aaa73299a576b96040924561f333c7"
+      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.18.5/ai-proxy-service_0.18.5_darwin_arm64.tar.gz"
+      sha256 "d98fdb7105c083e2673246a2b0109cd13f036ba07848eed207987f96fa71d882"
     end
     on_intel do
-      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.17.97/ai-proxy-service_0.17.97_darwin_amd64.tar.gz"
-      sha256 "3bf3ecea50b95c5b79b8c3696e0cb9cf85737a35ded9d1df96642ff76ffa9689"
+      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.18.5/ai-proxy-service_0.18.5_darwin_amd64.tar.gz"
+      sha256 "5f44270f26703f0c11f6ce058c94d96edbf2e65fe443e306ce1f2fa1c0f1fc7a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.17.97/ai-proxy-service_0.17.97_linux_arm64.tar.gz"
-      sha256 "577ea36081124ff71c6ab8af99b363741ead3786370d99b8d415f3c39ca8b087"
+      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.18.5/ai-proxy-service_0.18.5_linux_arm64.tar.gz"
+      sha256 "8b66f60bb6676d43bb13373603c200c832207f08a1be99779463019b5a598e96"
     end
     on_intel do
-      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.17.97/ai-proxy-service_0.17.97_linux_amd64.tar.gz"
-      sha256 "bda4f633d207ab43c2f4bba42ebd8c7d58975c98c3234bed3512c501d2241d7e"
+      url "https://github.com/veildawn/ai-proxy-releases/releases/download/v0.18.5/ai-proxy-service_0.18.5_linux_amd64.tar.gz"
+      sha256 "ef7a7a3d02cf0498b8565aef62ae415acbb82e6dffa67889bfac18b50c724d80"
     end
   end
 
